@@ -1,0 +1,22 @@
+.upload-card {
+  display: flex;
+  cursor: pointer;
+  flex-direction: column;
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  border-radius: 10px;
+  align-items: center;
+  gap: 20px;
+
+  &__name {
+    margin-top: 10px;
+    font-size: 14px;
+    color: green;
+    font-weight: 600;
+  }
+  &__file {
+    font-size: 12px;
+    color: blue;
+  }
+}
